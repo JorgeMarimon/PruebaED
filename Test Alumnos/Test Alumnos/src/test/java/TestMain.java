@@ -100,6 +100,12 @@ class TestMain {
 		assertEquals(0, solucion);
 	}
 
+	@Test
+	public void testDivi5(){
+		int solucion=Main.divide(0,10);
+		assertEquals(0, solucion);
+	}
+
 
 
 
